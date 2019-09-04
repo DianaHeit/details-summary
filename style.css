@@ -1,0 +1,54 @@
+html {
+  min-width: 300px;
+}
+
+body {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #ecf4f3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+a, a:active, a:visited, a:hover {
+  color: #202060;
+}
+
+summary {
+  font-size: 2rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+#dashed {
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  font-size: 1rem;
+  font-family: "Arial", sans-serif;
+  visibility: hidden;
+  width: 120px;
+  background-color: teal;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
